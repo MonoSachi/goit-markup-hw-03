@@ -50,6 +50,7 @@ ol {
 
 .title-studio {
     color: var(--navyblue, #2E2F42);
+    margin-right: 76px;
 }
 
 .menu-list {
@@ -109,6 +110,8 @@ ol {
 
 .effective-button {
     background: var(--navyblue, #2E2F42);
+    padding-top: 188px;
+    padding-bottom: 188px;
 }
 
 .effective {
@@ -122,6 +125,21 @@ ol {
     line-height: 1.07;
     /* 107.143% */
     letter-spacing: 1.12px;
+}
+
+.effective-title {
+    max-width: 496px;
+}
+
+.button-container {
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    background-color: #4d5ae5;
+    border-radius: 4px;
+    cursor: pointer;
+
 }
 
 .button {
