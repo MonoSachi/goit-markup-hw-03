@@ -58,10 +58,6 @@ ol {
     gap: 40px;
 }
 
-.menu-item-li {
-    padding-top: 24px;
-    padding-bottom: 24px;
-}
 
 .menu-link {
     color: var(--navyblue, #2E2F42);
@@ -81,6 +77,12 @@ ol {
 
 .menu-link:focus {
     color: #404bbf;
+}
+
+.link {
+    display: block;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .contacts-link-li {
