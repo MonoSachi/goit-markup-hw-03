@@ -196,7 +196,7 @@ ol {
 
 }
 
-.caption .target-li {
+.content-list .target-li {
     width: calc((100% - 72px) / 4);
 }
 
