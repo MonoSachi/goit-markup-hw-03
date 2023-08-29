@@ -192,10 +192,13 @@ ol {
     line-height: 1.2;
     /* 120% */
     letter-spacing: 0.4px;
-    width: calc((100% - 72px) / 4);
+
 
 }
 
+.caption .target-li {
+    width: calc((100% - 72px) / 4);
+}
 
 .list-title {
     margin-bottom: 8px;
