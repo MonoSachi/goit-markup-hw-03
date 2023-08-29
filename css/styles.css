@@ -196,11 +196,11 @@ ol {
 }
 
 .target-li {
-    width: calc((100% - 72px) / 4);
+    flex-basis: calc((100% - 72px) / 4);
 }
 
 .list-title {
-    flex-basis: calc((100% - 72px) / 4);
+    margin-bottom: 8px;
 }
 
 .text {
