@@ -182,6 +182,7 @@ ol {
 .content-list {
     display: flex;
     gap: 24px;
+    flex-basis: calc((100% - 72px) / 4);
 }
 
 .target {
@@ -195,9 +196,6 @@ ol {
 
 }
 
-.target-li {
-    flex-basis: calc((100% - 72px) / 4);
-}
 
 .list-title {
     margin-bottom: 8px;
