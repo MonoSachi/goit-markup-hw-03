@@ -182,7 +182,6 @@ ol {
 .content-list {
     display: flex;
     gap: 24px;
-    flex-basis: calc((100% - 72px) / 4);
 }
 
 .target {
@@ -193,6 +192,7 @@ ol {
     line-height: 1.2;
     /* 120% */
     letter-spacing: 0.4px;
+    width: calc((100% - 72px) / 4);
 
 }
 
