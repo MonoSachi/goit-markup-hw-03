@@ -28,6 +28,8 @@ body {
 ul,
 ol {
     list-style-type: none;
+    margin: 0;
+    padding-left: 0;
 }
 
 .logo-web {
