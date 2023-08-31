@@ -1,3 +1,13 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
 .header {
     background: var(--white, #FFF);
     border-bottom: 1px solid #e7e9fc;
@@ -5,7 +15,7 @@
 
 .div-header {
     display: flex;
-
+    align-items: center;
 }
 
 .container {
@@ -23,6 +33,7 @@ body {
 
 .link {
     text-decoration: none;
+
 }
 
 ul,
@@ -51,8 +62,7 @@ ol {
 }
 
 .title-studio {
-    color: var(--navyblue, #2E2F42);
-    margin-right: 76px;
+    color: #2E2F42;
 }
 
 .menu-list {
@@ -71,6 +81,9 @@ ol {
     line-height: 1.5;
     /* 150% */
     letter-spacing: 0.32px;
+    display: block;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .menu-link:hover {
@@ -79,12 +92,6 @@ ol {
 
 .menu-link:focus {
     color: #404bbf;
-}
-
-.link {
-    display: block;
-    padding-top: 24px;
-    padding-bottom: 24px;
 }
 
 .contacts-link-li {
@@ -97,6 +104,8 @@ ol {
     font-style: normal;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    font-style: normal;
+    margin-left: auto;
 
 }
 
@@ -118,6 +127,12 @@ ol {
     padding-bottom: 188px;
 }
 
+.container {
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
 .effective {
     color: var(--white, #FFF);
     text-align: center;
@@ -133,6 +148,9 @@ ol {
 
 .effective-title {
     max-width: 496px;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 
 .button-container {
@@ -155,6 +173,8 @@ ol {
     line-height: 1.5;
     letter-spacing: 0.04em;
     background: var(--iris, #4D5AE5);
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .button:hover {
@@ -359,6 +379,7 @@ ol {
 .link-logo {
     display: inline-block;
     margin-bottom: 16px;
+
 }
 
 .logo-down {
